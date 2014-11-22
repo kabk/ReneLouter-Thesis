@@ -1,0 +1,543 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+td, th {
+	border-style:solid;
+	border-width:1px;
+}
+table {
+	border-collapse:collapse;
+}
+li {
+	display:block;
+}
+body {
+	font-size:12px;
+	-epub-hyphens:auto;
+}
+p.Basic-Paragraph {
+	-epub-ruby-position:over;
+	color:#231f20;
+	font-family:"Minion Pro Regular", sans-serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.platte-tekst {
+	-epub-ruby-position:over;
+	color:#231f20;
+	font-family:"NexusMix-Regular", serif;
+	font-size:9px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+	line-height:1.444;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+span.small-caps {
+	font-family:"NexusMix-RegularSC", serif;
+	font-size:10px;
+	font-style:normal;
+	font-weight:500;
+}
+span.chapter-title {
+	font-family:"NexusMix-RegularSC", serif;
+	font-size:18px;
+	font-style:normal;
+	font-weight:500;
+}
+span.titel {
+	font-family:"NexusSans-BoldSC", sans-serif;
+	font-size:10px;
+	font-style:normal;
+	font-weight:500;
+}
+span.platte-tekst {
+	font-family:"NexusMix-Regular", serif;
+	font-size:10px;
+	font-style:normal;
+	font-weight:500;
+}
+span.vet {
+	font-family:"NexusMix-Bold", serif;
+	font-size:10px;
+	font-style:normal;
+	font-weight:500;
+}
+p.para-style-override-1 {
+	text-align:center;
+}
+p.para-style-override-2 {
+	-epub-hyphens:none;
+	text-align:center;
+}
+p.para-style-override-3 {
+	-epub-hyphens:none;
+	font-size:12px;
+	text-align:center;
+}
+p.para-style-override-4 {
+	text-align:right;
+}
+p.para-style-override-5 {
+	color:#ffffff;
+}
+p.para-style-override-6 {
+	-epub-hyphens:none;
+	margin-left:17px;
+}
+p.para-style-override-7 {
+	text-align:justify;
+}
+p.para-style-override-8 {
+	font-size:14px;
+}
+p.para-style-override-9 {
+	font-family:"NexusMix-BoldItalic", serif;
+	font-size:8px;
+	font-style:italic;
+	font-weight:500;
+}
+p.para-style-override-10 {
+	color:#ffffff;
+	font-family:"NexusMix-BoldItalic", serif;
+	font-size:8px;
+	font-style:italic;
+	font-weight:500;
+}
+p.para-style-override-11 {
+	font-family:"NexusMix-BoldItalic", serif;
+	font-size:8px;
+	font-style:italic;
+	font-weight:500;
+	text-align:right;
+}
+p.para-style-override-12 {
+	font-family:"NexusSans-Regular", sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-weight:500;
+}
+p.para-style-override-13 {
+	font-family:"NexusSans-Regular", sans-serif;
+	font-size:8px;
+	font-style:normal;
+	font-weight:500;
+}
+p.para-style-override-14 {
+	font-family:"NexusSans-Regular", sans-serif;
+	font-size:10px;
+	font-style:normal;
+	font-weight:500;
+}
+p.para-style-override-15 {
+	font-family:"NexusMix-Italic", serif;
+	font-size:15px;
+	font-style:italic;
+	font-weight:500;
+	text-align:justify;
+}
+p.para-style-override-16 {
+	font-family:"NexusMix-Italic", serif;
+	font-style:italic;
+	font-weight:500;
+	text-align:justify;
+}
+p.para-style-override-17 {
+	font-family:"NexusMix-BoldSC", serif;
+	font-size:8px;
+	font-style:normal;
+	font-weight:500;
+	text-align:justify;
+}
+p.para-style-override-18 {
+	font-family:"NexusSans-RegularSC", sans-serif;
+	font-style:normal;
+	font-weight:500;
+}
+p.para-style-override-19 {
+	font-family:"NexusSans-Italic", sans-serif;
+	font-size:8px;
+	font-style:italic;
+	font-weight:500;
+}
+p.para-style-override-20 {
+	font-family:"Louter Handwriting", sans-serif;
+	font-size:6px;
+	font-style:normal;
+	font-weight:normal;
+	text-align:right;
+}
+p.para-style-override-21 {
+	font-family:"Louter Handwriting", sans-serif;
+	font-size:6px;
+	font-style:normal;
+	font-weight:normal;
+	text-align:center;
+}
+p.para-style-override-22 {
+	font-family:"Louter Handwriting", sans-serif;
+	font-size:6px;
+	font-style:normal;
+	font-weight:normal;
+}
+p.para-style-override-23 {
+	font-family:"Louter Handwriting", sans-serif;
+	font-size:7px;
+	font-style:normal;
+	font-weight:normal;
+	text-align:center;
+}
+p.para-style-override-24 {
+	font-family:"Louter Handwriting", sans-serif;
+	font-size:18px;
+	font-style:normal;
+	font-weight:normal;
+}
+p.para-style-override-25 {
+	font-family:"Louter Handwriting", sans-serif;
+	font-size:7px;
+	font-style:normal;
+	font-weight:normal;
+}
+p.para-style-override-26 {
+	font-family:"Louter Handwriting", sans-serif;
+	font-size:13px;
+	font-style:normal;
+	font-weight:normal;
+}
+p.para-style-override-27 {
+	color:#00aeef;
+	font-family:"Louter Handwriting", sans-serif;
+	font-size:13px;
+	font-style:normal;
+	font-weight:normal;
+}
+p.para-style-override-28 {
+	font-family:"NexusMix-Regular", serif;
+	font-size:10px;
+	font-style:normal;
+	font-weight:500;
+}
+span.char-style-override-1 {
+	color:#ffffff;
+	font-size:10px;
+}
+span.char-style-override-2 {
+	font-size:12px;
+}
+span.char-style-override-3 {
+	font-size:9px;
+}
+span.char-style-override-4 {
+	font-size:14px;
+}
+span.char-style-override-5 {
+	font-family:"NexusMix-Regular", serif;
+	font-style:normal;
+	font-weight:500;
+}
+span.char-style-override-6 {
+	color:#ffffff;
+	font-size:120px;
+}
+span.char-style-override-7 {
+	color:#ffffff;
+}
+span.char-style-override-8 {
+	font-family:"NexusSans-Regular", sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-weight:500;
+}
+span.char-style-override-9 {
+	font-family:"NexusMix-BoldSC", serif;
+	font-size:8px;
+	font-style:normal;
+	font-weight:500;
+}
+span.char-style-override-10 {
+	font-family:"NexusMix-BoldItalic", serif;
+	font-size:8px;
+	font-style:italic;
+	font-weight:500;
+}
+span.char-style-override-11 {
+	font-family:"NexusMix-Italic", serif;
+	font-size:8px;
+	font-style:italic;
+	font-weight:500;
+}
+span.char-style-override-12 {
+	font-size:6px;
+}
+span.char-style-override-13 {
+	font-family:"NexusSans-Regular", sans-serif;
+	font-size:10px;
+	font-style:normal;
+	font-weight:500;
+}
+span.char-style-override-14 {
+	font-family:"NexusSans-Regular", sans-serif;
+	font-size:8px;
+	font-style:normal;
+	font-weight:500;
+}
+span.char-style-override-15 {
+	font-family:"NexusMix-Italic", serif;
+	font-size:15px;
+	font-style:italic;
+	font-weight:500;
+}
+span.char-style-override-16 {
+	text-transform:uppercase;
+}
+span.char-style-override-17 {
+	font-size:50px;
+}
+span.char-style-override-18 {
+	color:#ffffff;
+	font-family:"NexusMix-Regular", serif;
+	font-style:normal;
+	font-weight:500;
+}
+span.char-style-override-19 {
+	font-family:"NexusMixTF-Bold", serif;
+	font-style:normal;
+	font-weight:500;
+}
+span.char-style-override-20 {
+	font-family:"NexusMix-Regular", serif;
+	font-size:10px;
+	font-style:normal;
+	font-weight:500;
+}
+span.char-style-override-21 {
+	font-family:"Louter Handwriting", sans-serif;
+	font-size:14px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-22 {
+	font-family:"Louter Handwriting", sans-serif;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-23 {
+	font-size:90px;
+}
+img.frame-1 {
+	height:969px;
+	width:1370px;
+}
+div.frame-2 {
+	margin:0px auto 0px auto;
+	text-align:center;
+}
+img.frame-3 {
+	height:823px;
+	width:1303px;
+}
+img.frame-4 {
+	height:1px;
+	width:16px;
+}
+img.frame-5 {
+	height:2px;
+	width:3px;
+}
+img.frame-6 {
+	height:3px;
+	width:1px;
+}
+img.frame-7 {
+	height:4px;
+	width:0px;
+}
+img.frame-8 {
+	height:2px;
+	width:1px;
+}
+img.frame-9 {
+	height:452px;
+	width:655px;
+}
+img.frame-10 {
+	height:202px;
+	width:295px;
+}
+img.frame-11 {
+	height:212px;
+	width:290px;
+}
+img.frame-12 {
+	height:162px;
+	width:530px;
+}
+img.frame-13 {
+	height:347px;
+	width:195px;
+}
+img.frame-14 {
+	height:210px;
+	width:657px;
+}
+img.frame-15 {
+	height:271px;
+	width:277px;
+}
+img.frame-16 {
+	height:191px;
+	width:510px;
+}
+img.frame-17 {
+	height:249px;
+	width:298px;
+}
+img.frame-18 {
+	height:121px;
+	width:240px;
+}
+img.frame-19 {
+	height:123px;
+	width:240px;
+}
+img.frame-20 {
+	height:253px;
+	width:339px;
+}
+img.frame-21 {
+	height:276px;
+	width:225px;
+}
+img.frame-22 {
+	height:210px;
+	width:285px;
+}
+img.frame-23 {
+	height:268px;
+	width:190px;
+}
+img.frame-24 {
+	height:401px;
+	width:303px;
+}
+img.frame-25 {
+	height:168px;
+	width:289px;
+}
+img.frame-26 {
+	height:293px;
+	width:239px;
+}
+img.frame-27 {
+	height:136px;
+	width:136px;
+}
+img.frame-28 {
+	height:221px;
+	width:329px;
+}
+img.frame-29 {
+	height:245px;
+	width:327px;
+}
+img.frame-30 {
+	height:199px;
+	width:213px;
+}
+img.frame-31 {
+	height:199px;
+	width:288px;
+}
+img.frame-32 {
+	height:197px;
+	width:289px;
+}
+img.frame-33 {
+	height:239px;
+	width:175px;
+}
+img.frame-34 {
+	height:455px;
+	width:463px;
+}
+img.frame-35 {
+	height:491px;
+	width:874px;
+}
+img.frame-36 {
+	height:289px;
+	width:284px;
+}
+img.frame-37 {
+	height:167px;
+	width:244px;
+}
+img.frame-38 {
+	height:318px;
+	width:256px;
+}
+img.frame-39 {
+	height:338px;
+	width:362px;
+}
+img.frame-40 {
+	height:281px;
+	width:419px;
+}
+img.frame-41 {
+	height:263px;
+	width:324px;
+}
+img.frame-42 {
+	height:264px;
+	width:321px;
+}
+img.frame-43 {
+	height:840px;
+	width:1329px;
+}
+img.frame-44 {
+	height:822px;
+	width:651px;
+}
+img.frame-45 {
+	height:1013px;
+	width:2111px;
+}
+img.frame-46 {
+	height:667px;
+	width:471px;
+}
+img.frame-47 {
+	height:90px;
+	width:161px;
+}
+img.frame-48 {
+	height:793px;
+	width:531px;
+}
+img.frame-49 {
+	height:263px;
+	width:175px;
+}
+img.frame-50 {
+	height:452px;
+	width:1790px;
+}
